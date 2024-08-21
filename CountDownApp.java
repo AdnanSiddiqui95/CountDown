@@ -43,6 +43,7 @@ public class CountDownApp
 			try {
 				Thread.sleep(2000);
 			}catch(Exception ex) {}
+			System.exit(0);
 		}
 	}
 	public static void main(String[] args) 
